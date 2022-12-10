@@ -11,7 +11,7 @@ impl Note {
         Note {
             title: title.to_string(),
             description: description.to_string(),
-            id: fastrand::u32(..)
+            id: fastrand::u32(..),
         }
     }
 }
@@ -45,7 +45,4 @@ fn main() {
         println!("Description: {}", n.description);
         println!("------------------------------------------------------------------------");
     }
-    
-    
 }
-
