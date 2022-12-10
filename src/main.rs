@@ -18,9 +18,8 @@ impl Note {
 }
 
 fn main() {
-    let mut options = false;
     let mut notes = Vec::new();
-    while options == false {
+    loop {
         let mut options_ans = String::new();
         options_ans = get_input_value("Add to your list?(y/n)");
 
