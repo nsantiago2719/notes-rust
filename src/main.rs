@@ -1,6 +1,5 @@
 use std::io;
 
-#[derive(Debug)]
 struct Note {
     title: String,
     description: String,
@@ -21,7 +20,7 @@ fn main() {
     let mut notes = Vec::new();
     loop {
         let mut options_ans = String::new();
-        options_ans = get_input_value("Add to your list?(y/n)");
+        options_ans = get_input_value("Add new note to your list?(y/n)");
 
         if options_ans == "y" {
             let mut title = String::new();
