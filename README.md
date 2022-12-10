@@ -1,7 +1,7 @@
-#### Notes
+## Notes
 This project is a cli notes that accepts a title and description. When done it will list all the notes entered.
 
-#### License
+## License
 The MIT License (MIT)
 
 Copyright © 2022 <norman santiago>
