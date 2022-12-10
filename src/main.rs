@@ -41,6 +41,7 @@ fn main() {
     println!("------------------------------------------------------------------------");
 
     for n in notes {
+        println!("ID: {}", n.id);
         println!("Title: {}", n.title);
         println!("Description: {}", n.description);
         println!("------------------------------------------------------------------------");
